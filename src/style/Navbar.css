@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    font-size: 150%;
+    transition: color 300ms linear;
+}
+
+.navbar a:hover {
+    color:rgb(78, 78, 78);
+    transition: color 300ms linear;
+}
+
+
+
+

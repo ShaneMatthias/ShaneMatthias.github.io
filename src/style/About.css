@@ -1,0 +1,8 @@
+.aboutWrapper {
+    display: inline-flex;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    background: url('../images/background.png');
+    padding: 10%;
+}
