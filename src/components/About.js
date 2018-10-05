@@ -11,7 +11,18 @@ class About extends Component {
                 I've come a long way from home. If you were wondering, 
                 I am a Canadian born Malaysian raised in Malaysia.My name is Shane, and I code. Currently located in Canada at the moment, 
                 I've come a long way from home. If you were wondering, 
-                I am a Canadian born Malaysian raised in Malaysia.</p>
+                I am a Canadian born Malaysian raised in Malaysia.
+                My name is Shane, and I code. Currently located in Canada at the moment, 
+                I've come a long way from home. If you were wondering, 
+                I am a Canadian born Malaysian raised in Malaysia.My name is Shane, and I code. Currently located in Canada at the moment, 
+                I've come a long way from home. If you were wondering, 
+                I am a Canadian born Malaysian raised in Malaysia.My name is Shane, and I code. Currently located in Canada at the moment, 
+                I've come a long way from home. If you were wondering, 
+                I am a Canadian born Malaysian raised in Malaysia.
+                My name is Shane, and I code. Currently located in Canada at the moment, 
+                I've come a long way from home. If you were wondering, 
+                I am a Canadian born Malaysian raised in Malaysia.My name is Shane, and I code. Currently located in Canada at the moment
+                </p>
         </div>
       );
     }

@@ -6,7 +6,7 @@ class Navbar extends Component {
       return (
         <div className='navbarWrapper'>
             <ul className='navbar'>
-                <li><a href='.about'>About</a></li>
+                <li><a href='.aboutWrapper'>About</a></li>
                 <li><a href='.employment'>Employment</a></li>
                 <li><a href='.projects'>Projects</a></li>
                 <li><a href='.contact'>Contact</a></li>
