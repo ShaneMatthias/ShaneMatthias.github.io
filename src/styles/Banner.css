@@ -1,0 +1,17 @@
+.bannerWrapper {
+
+}
+
+.h2wrapper {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    font-size: 250%;
+}
+
+#bannerImg{
+    z-index: -1;
+    width: 100%;
+    filter: blur(4px);
+}
