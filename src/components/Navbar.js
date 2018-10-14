@@ -18,10 +18,10 @@ export default class Navbar extends Component{
                 this.setState({ isTop })
             }
         });
-      }
+    }
+
     render() {
         return (
-            
             <div>
                 <nav className={this.state.isTop ? 'nav': 'navBlack'}>
                     <ul className="navbar">
