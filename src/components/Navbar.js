@@ -23,9 +23,9 @@ export default class Navbar extends Component{
     render() {
         return (
             <div>
-                <nav className={this.state.isTop ? 'nav': 'navBlack'}>
+                <nav className={this.state.isTop ? 'nav': 'nav-black'}>
                     <ul className="navbar">
-                        <li><a href='.aboutWrapper'>About</a></li>
+                        <li><a href='#about-section'>About</a></li>
                         <li><a href='.employment'>Employment</a></li>
                         <li><a href='.projects'>Projects</a></li>
                         <li><a href='.contact'>Contact</a></li>

@@ -1,13 +1,13 @@
-.bannerWrapper p {
+.banner-container p {
     text-align: center;
     color: white;
     font-size: 300%;
 }
 
-.bannerTitle {
+.banner-title {
     z-index: 1;
     width: 100%;
-    padding-top: 12%;
+    padding-top: 14%;
 }
 
 #name {

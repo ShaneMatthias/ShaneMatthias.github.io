@@ -1,8 +1,32 @@
-.aboutWrapper {
-    display: inline-flex;
+.about-container {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.title h1 {
     color: white;
-    font-size: 150%;
     text-align: center;
-    /* background: url('../images/background.png'); */
-    padding: 10%;
-} 
+    font-size: 200%;
+    margin-bottom: auto;
+}
+
+.content {
+    /* padding-left: 10%; */
+}
+
+.content img {
+    border-radius: 25%;
+    margin-right: 2%;
+    float: left;
+}
+
+.content h1 {
+    color: white;
+    font-size: 120%;
+    font-weight: normal;
+    padding-top: 1.5%;
+}
+
+.title hr {
+    width: 2%;
+}

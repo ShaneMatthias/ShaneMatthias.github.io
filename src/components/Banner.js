@@ -3,8 +3,8 @@ import '../styles/Banner.css';
 
 export const Banner = () =>  {
     return (
-        <div className='bannerWrapper'>
-            <div className='bannerTitle'>
+        <div className='banner-container'>
+            <div className='banner-title'>
                 <div>
                     <p id='name'>Shane Loong</p>
                 </div>

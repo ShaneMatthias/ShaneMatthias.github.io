@@ -4,7 +4,7 @@
     transition: 200ms linear;
 }
 
-.navBlack {
+.nav-black {
     position: fixed;
     width: 100%;
     transition: 200ms linear;
@@ -34,7 +34,6 @@
 
 .navbar a:hover {
     font-size: 170%;
-    color:rgb(78, 78, 78);
     transition: 100ms linear;
 }
 

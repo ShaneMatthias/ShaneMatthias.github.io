@@ -12,7 +12,11 @@ class App extends Component {
             <Navbar />
             <Banner />
         </Parallax>
-        <About />
+
+        <span className='anchor' id='about-section'>
+          <About />
+        </span>
+
         <Employment />
       </div>
     );
