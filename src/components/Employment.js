@@ -22,7 +22,8 @@ export const Employment = () => {
             </h1>
             <a href='http://cims.carleton.ca/#/blogs/MappingEasternOntario'> Here is what's being developed.</a>
           </div>
-
+          <hr></hr>
+          
           <div className='emp-bns'>
             <img alt='BNS' className='bns' src={require('../images/bns.png')} />
             <h1>I WORK AT BNS YAYYY</h1>
