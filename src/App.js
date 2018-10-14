@@ -7,6 +7,7 @@ import './styles/App.css';
 class App extends Component {
   render() {
     return (
+
       <div className='appWrapper'>
         <Parallax className='parallax' bgImage={require('./images/background2.png')} strength={1100}>
             <Navbar />
@@ -17,7 +18,10 @@ class App extends Component {
           <About />
         </span>
 
-        <Employment />
+        <span className='anchor' id='employment-section'>
+          <Employment />
+        </span>
+        
       </div>
     );
   }

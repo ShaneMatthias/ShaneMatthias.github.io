@@ -1,0 +1,47 @@
+.emp-container {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    background: #252525;
+}
+
+.emp-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: auto;
+}
+
+.emp-content {
+    display: grid;
+}
+
+.emp-content img {
+    border-radius: 10%;
+    margin-right: 2%;
+    float: left;
+    width: 20%;
+    height: 20%; 
+}
+
+.emp-content h1 {
+    color: white;
+    font-size: 120%;
+    font-weight: normal;
+    padding-top: 2%;
+}
+
+.emp-title hr {
+    width: 2%;
+}
+
+.emp-cims {
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.emp-cims a {
+    color: beige;
+    font-size: 100%;
+}  

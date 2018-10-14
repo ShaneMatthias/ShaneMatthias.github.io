@@ -1,32 +1,31 @@
 .about-container {
     padding-left: 7%;
     padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 12%;
+    background: #1f1f1f;
 }
 
-.title h1 {
+.about-title h1 {
     color: white;
     text-align: center;
     font-size: 200%;
     margin-bottom: auto;
 }
 
-.content {
-    /* padding-left: 10%; */
-}
-
-.content img {
+.about-content img {
     border-radius: 25%;
     margin-right: 2%;
     float: left;
 }
 
-.content h1 {
+.about-content h1 {
     color: white;
     font-size: 120%;
     font-weight: normal;
-    padding-top: 1.5%;
+    padding-top: 2%;
 }
 
-.title hr {
+.about-title hr {
     width: 2%;
 }
