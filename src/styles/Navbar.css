@@ -1,23 +1,41 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    transition: 200ms linear;
+}
+
+.navBlack {
+    position: fixed;
+    width: 100%;
+    transition: 200ms linear;
+    background: rgb(27, 27, 27);
+}
+
 .navbar {
+    margin-top: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .navbar li {
+    padding-top: 1%;
     list-style: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline;
 }
 
 .navbar a {
     color:white;
     text-decoration: none;
     font-size: 150%;
-    transition: 300ms linear;
+    transition: 100ms linear;
 }
 
 .navbar a:hover {
     font-size: 170%;
     color:rgb(78, 78, 78);
-    transition: 300ms linear;
+    transition: 100ms linear;
 }
 
 

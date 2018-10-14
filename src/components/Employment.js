@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Employment extends Component {
-    render() {
-      return (
-        <div className='employmentWrapper'>
+export const Employment = () => {
+  return (
+    <div className='employmentWrapper'>
 
-        </div>
-      );
-    }
-  }
-  
-  export default Employment;
+    </div>
+  );
+}

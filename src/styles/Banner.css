@@ -1,17 +1,16 @@
-.bannerWrapper {
-
-}
-
-.h2wrapper {
-    position: absolute;
+.bannerWrapper p {
     text-align: center;
-    z-index: 1;
     color: white;
-    font-size: 250%;
+    font-size: 300%;
 }
 
-#bannerImg{
-    z-index: -1;
+.bannerTitle {
+    z-index: 1;
     width: 100%;
-    filter: blur(4px);
+    padding-top: 12%;
 }
+
+#name {
+    font-weight: bold;
+}
+
