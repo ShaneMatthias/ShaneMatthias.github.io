@@ -1,8 +1,8 @@
 .emp-container {
     padding-left: 7%;
     padding-right: 7%;
-    padding-top: 3%;
-    padding-bottom: 10%;
+    padding-top: 4%;
+    padding-bottom: 5%;
     background: #252525;
 }
 
@@ -13,37 +13,25 @@
     margin-bottom: auto;
 }
 
-.emp-content {
-    display: grid;
+.emp-title hr {
+    width: 2%;
 }
 
-.emp-content img {
-    border-radius: 5%;
-    margin-right: 2%;
-    float: left;
-    width: 35%;
-    height: 35%; 
+.emp-content {
+    display: grid;
+    /* padding-left: 7%;
+    padding-right: 7%; */
 }
 
 .emp-content h1 {
     color: white;
     font-size: 120%;
     font-weight: normal;
-    padding-top: 2%;
-    /* overflow: hidden; */
-}
-
-.emp-title hr {
-    width: 2%;
-}
-
-.emp-cims {
-    padding-bottom: 4%;
-    padding-top: 4%;
+    padding-top: 1.5%;
 }
 
 .emp-cims a {
-    color: beige;
+    color: white;
     font-size: 120%;
 }  
 
@@ -51,7 +39,36 @@
     width: 80%;
 }
 
+.emp-content img {
+    border-radius: 5%;
+    margin-right: 2%;
+    float: left;
+    width: 35%;
+    height: 35%;  
+    background: white;
+}
+
+.emp-bns img {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%
+}
+
+.emp-cng img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 .emp-bns {
     padding-top: 4%;
     padding-bottom: 4%;
+}
+
+.emp-cng {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.emp-cims {
+    padding-bottom: 4%;
+    padding-top: 4%;
 }

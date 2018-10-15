@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
-import { Banner, About, Employment } from "./components";
+import { Banner, About, Employment, Projects } from "./components";
 import Navbar from './components/Navbar'
 import './styles/App.css';
 
@@ -9,7 +9,7 @@ class App extends Component {
     return (
 
       <div className='appWrapper'>
-        <Parallax className='parallax' bgImage={require('./images/background2.png')} strength={1100}>
+        <Parallax className='parallax' bgImage={require('./images/background.png')} strength={1100}>
             <Navbar />
             <Banner />
         </Parallax>
@@ -20,6 +20,10 @@ class App extends Component {
 
         <span className='anchor' id='employment-section'>
           <Employment />
+        </span>
+
+        <span className='anchor' id='projects-section'>
+          <Projects />
         </span>
         
       </div>

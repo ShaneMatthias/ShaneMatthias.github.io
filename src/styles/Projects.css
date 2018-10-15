@@ -1,0 +1,55 @@
+.projects-container {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    background: #1f1f1f;
+}
+
+.projects-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: auto;
+}
+
+.projects-title hr {
+    width: 2%;
+}
+
+.projects-content {
+    display: grid;
+    padding-top: 3%;
+}
+
+.projects-content div {
+    justify-content: center;
+    justify-items: center;
+}
+.projects-content h1 {
+    color: white;
+    font-size: 120%;
+    font-weight: normal;
+    padding-top: 1.5%;
+}
+
+.projects-content img {
+    transition: all .4s ease;
+    height: 80%;
+    width: 80%;
+}
+
+.projects-content img:hover {
+    transition: all .4s ease;
+    box-shadow: 10px 10px 5px rgb(95, 95, 95);
+    -moz-box-shadow: 10px 10px 5px rgb(95, 95, 95);;
+    -webkit-box-shadow: 10px 10px 5px rgb(95, 95, 95);;
+}
+
+.proj-retrieve {
+    grid-column: 1/2;    
+}
+
+.proj-bookstore {
+    grid-column: 2/2;
+}
