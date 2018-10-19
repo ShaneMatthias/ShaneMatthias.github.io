@@ -12,66 +12,116 @@ export const Projects = () => {
         <div className='projects-content'>
 
             <div className='proj-retrieve'>
-              <a href='https://github.com/ShaneMatthias/Retrieve'><img alt='Retrieve' src={require('../images/retrieve.png')} /></a>
+                <div className='card'>
 
-              <div className='proj-title'>
-                <h1>Retrieve</h1>
-              </div>
+                    <div className='front'>
+                        <img alt='Retrieve' src={require('../images/retrieve.png')} />
+                    </div>
 
-              <div className='proj-desc'>
-                <h1>A Lost & Found application for iOS developed using React-Native. This iOS app allows users to create and view posts based on location. This is done using the Google Maps API.</h1>
-                <h1>Click on the thumbnail for more info.</h1>
-              </div>
+                    <div className='back'>
+                        <div className='proj-back-content'>
+                            <div className='proj-title'>
+                                <h1>Retrieve</h1>
+                            </div>
 
+                            <div className='proj-desc'>
+                                <h1>A Lost & Found application for iOS developed using React-Native. This iOS application acts as a ONLINE lost and found. Items that are lost or found
+                                    can be seen on a map which uses the Google Maps API.
+                                </h1>
+                            </div>
+
+                            <div className='link-button'><a href="https://github.com/ShaneMatthias/Retrieve" target="_blank" >
+                                <button>Github</button>
+                            </a></div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
             <div className='proj-youtube'>
-              <a href='https://github.com/ShaneMatthias/Youtube-Browser'><img alt='Youtube' src={require('../images/youtube.png')} /></a>
+                <div className='card'>
 
-              <div className='proj-title'>
-                <h1>Youtube Browser</h1>
-              </div>
+                    <div className='front'>
+                        <img alt='Youtube' src={require('../images/youtube.png')} />
+                    </div>
 
-              <div className='proj-desc'>
-                <h1>A youtube browser developed using React that has a similar layout to Youtube itself. This web app fetches data using the Youtube API.</h1>
-                <h1>Click on the thumbnail for more info.</h1>
-              </div>
+                    <div className='back'>
+                        <div className='proj-back-content'>
+                            <div className='proj-title'>
+                                <h1>Youtube Browser</h1>
+                            </div>
 
+                            <div className='proj-desc'>
+                                <h1>A Youtube browser developed using React that has a similar layout to Youtube itself. This web app fetches data using the Youtube API.</h1>
+                            </div>
+                            
+                            <div className='link-button'><a href="https://github.com/ShaneMatthias/Youtube-Browser" target="_blank" >
+                                <button>Github</button>
+                            </a></div>
+                        </div>                   
+                    </div>
+
+                </div>
             </div>
 
             <div className='proj-weather'>
-              <a href='https://github.com/ShaneMatthias/Weather-Forecast'><img alt='Weather' src={require('../images/weather.png')} /></a>
+                <div className='card'>
 
-              <div className='proj-title'>
-                <h1>Weather Forecast</h1>
-              </div>
+                    <div className='front'>
+                        <img alt='Weather' src={require('../images/weather.png')} />
+                    </div>
 
-              <div className='proj-desc'>
-                <h1>A weather forecast web app developed using React-Redux.</h1>
-                <h1>Click on the thumbnail for more info.</h1>
-              </div>
+                    <div className='back'>
+                        <div className='proj-back-content'>
+                            <div className='proj-title'>
+                                <h1>Weather Forecast</h1>
+                            </div>
 
+                            <div className='proj-desc'>
+                                <h1>A weather forecast web application developed using React-Redux allowing users to retrieve real-time weather updates for various cities 
+                                    across Canada. A Google Map implementation pin points users to searched cities.
+                                </h1>
+                            </div>
+
+                            <div className='link-button'><a href="https://github.com/ShaneMatthias/Weather-Forecast" target="_blank" >
+                                <button>Github</button>
+                            </a></div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
             <div className='proj-bookstore'>
-              <a href='https://github.com/ShaneMatthias/BookStoreManagement'><img alt='Bookstore' src={require('../images/bookstore.png')} /></a>
+                <div className='card'>
 
-              <div className='proj-title'>
-                <h1>Bookstore Management</h1>
-              </div>
+                    <div className='front'>
+                        <img alt='Bookstore' src={require('../images/bookstore.png')} />
+                    </div>
 
-              <div className='proj-desc'>
-                <h1>A weather forecast web app developed using React-Redux.</h1>
-                <h1>Click on the thumbnail for more info.</h1>
-              </div>
+                    <div className='back'>
+                        <div className='proj-back-content'>
+                            <div className='proj-title'>
+                                <h1>Bookstore Management</h1>
+                            </div>
 
+                            <div className='proj-desc'>
+                                <h1>Developed using C++, this program is a basic CRUD application used to store, edit, and delete personal student/bookstore data like courses,
+                                    textbooks, and products.
+                                </h1>
+                            </div>
+
+                            <div className='link-button'><a href="https://github.com/ShaneMatthias/BookStoreManagement" target="_blank" >
+                                <button>Github</button>
+                            </a></div>
+                        </div>
+                    </div>
+            
+                </div>
             </div>
 
-
         </div>
-
-
-
     </div>
   );
 }

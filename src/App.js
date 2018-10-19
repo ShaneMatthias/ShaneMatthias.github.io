@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
-import { Banner, About, Employment, Projects } from "./components";
-import Navbar from './components/Navbar'
+import { Banner, About, Projects } from "./components";
+import Navbar from './components/Navbar';
+import EmploymentTimeline from './components/EmploymentTimeline';
 import './styles/App.css';
 
-class App extends Component {
+
+export default class App extends Component {
   render() {
     return (
 
@@ -19,16 +21,14 @@ class App extends Component {
         </span>
 
         <span className='anchor' id='employment-section'>
-          <Employment />
+          <EmploymentTimeline />
         </span>
 
         <span className='anchor' id='projects-section'>
           <Projects />
         </span>
-        
+
       </div>
     );
   }
 }
-
-export default App;
