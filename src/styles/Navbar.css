@@ -9,6 +9,7 @@
     width: 100%;
     transition: 200ms linear;
     background: rgb(27, 27, 27);
+    z-index: 1;
 }
 
 .navbar {

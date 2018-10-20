@@ -1,0 +1,17 @@
+.footer-container {
+    background: black;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+    font-size: 120%;
+}
+
+.footer-title hr {
+    width: 2%;
+}

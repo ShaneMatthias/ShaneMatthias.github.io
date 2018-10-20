@@ -28,7 +28,6 @@ export default class Navbar extends Component{
                         <li><a href='#about-section'>About</a></li>
                         <li><a href='#employment-section'>Employment</a></li>
                         <li><a href='#projects-section'>Projects</a></li>
-                        <li><a href='.contact'>Contact</a></li>
                         <li><a href='https://drive.google.com/open?id=1-QTvrDiAxZiNVfx80dkxFcRGJpGMNfUV'>Resume</a></li>
                     </ul>
                 </nav>
