@@ -6,6 +6,10 @@
     background: #1f1f1f;
 }
 
+.about-title {
+    padding-bottom: 2%;
+}
+
 .about-title h1 {
     color: white;
     text-align: center;
@@ -13,17 +17,23 @@
     margin-bottom: auto;
 }
 
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
 .about-content img {
     border-radius: 25%;
-    margin-right: 2%;
-    float: left;
+}
+
+.about-desc {
+    padding-left: 2%;
 }
 
 .about-content h1 {
     color: white;
     font-size: 120%;
     font-weight: normal;
-    padding-top: 2%;
 }
 
 .about-title hr {
