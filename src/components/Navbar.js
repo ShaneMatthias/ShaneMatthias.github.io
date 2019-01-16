@@ -29,7 +29,7 @@ export default class Navbar extends Component{
                         <li><a href='#employment-section'>Employment</a></li>
                         <li><a href='#projects-section'>Projects</a></li>
                         <li><a href='#skills-section'>Skills</a></li>
-                        <li><a href='https://drive.google.com/open?id=1wUezNf7BUs8JM9lHcNJMCtatXYzRHXJD' target="_blank">Resume</a></li>
+                        <li><a href='https://drive.google.com/open?id=1Wx77e7J2hQ-Ge0OYlGuAPyES6RaxR13v' target="_blank">Resume</a></li>
                     </ul>
                 </nav>
             </div>
