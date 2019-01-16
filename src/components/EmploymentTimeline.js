@@ -18,7 +18,7 @@ export default class EmploymentTimeline extends Component {
 
                         <h3 className="vertical-timeline-element-title">Software Developer (RA)</h3>
                         <h4 className="vertical-timeline-element-subtitle">CIMS</h4>
-                        <h4 className="vertical-timeline-element-subtitle">July 2018 - Present</h4>
+                        <h4 className="vertical-timeline-element-subtitle">July 2018 - December 2018</h4>
                         <img className='cims-img' src={require('../images/cims.png')} />
                         <p>
                         Currently employed as a part time developer at CIMS. My team and I made the decision on using React and Redux to develop a web application called Asset Information Model (AIM).

@@ -8,7 +8,7 @@ export const Employment = () => {
       <div className='emp-title'>
           <h1>Employment</h1>
           <hr></hr>
-        </div>
+      </div>
 
         <div className='emp-content'>
 
