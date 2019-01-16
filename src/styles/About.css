@@ -39,3 +39,9 @@
 .about-title hr {
     width: 2%;
 }
+
+@media screen and (max-width: 880px) {
+    .about-content {
+        flex-flow: column;
+    }
+}
