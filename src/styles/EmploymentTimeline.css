@@ -11,3 +11,9 @@
     height: 100%;
     padding-top: 2%;
 }
+
+@media screen and (max-width: 600px) {
+    .projTL-container {
+        padding-top: 10%;
+    }
+}

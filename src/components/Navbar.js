@@ -8,6 +8,7 @@ export default class Navbar extends Component{
 
         this.state = {
             isTop: true,
+            hamburgerToggle: false,
         };
     }
     
@@ -18,6 +19,10 @@ export default class Navbar extends Component{
                 this.setState({ isTop })
             }
         });
+    }
+
+    changeIcon = () => {
+        this.setState({ hamburgerToggle: !this.state.hamburgerToggle })
     }
 
     render() {
@@ -32,6 +37,22 @@ export default class Navbar extends Component{
                         <li><a href='https://drive.google.com/open?id=1Wx77e7J2hQ-Ge0OYlGuAPyES6RaxR13v' target="_blank">Resume</a></li>
                     </ul>
                 </nav>
+                
+                <div className={this.state.hamburgerToggle ? 'hamburger-open' : 'hamburger-close'} onClick={this.changeIcon}>
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+
+                <div className={this.state.hamburgerToggle ? 'hamburger-menu-open' : 'hamburger-menu-close'}>
+                    <ul>
+                        <li><a href='#about-section'>About</a></li>
+                        <li><a href='#employment-section'>Employment</a></li>
+                        <li><a href='#projects-section'>Projects</a></li>
+                        <li><a href='#skills-section'>Skills</a></li>
+                        <li><a href='https://drive.google.com/open?id=1Wx77e7J2hQ-Ge0OYlGuAPyES6RaxR13v' target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
         );
     }

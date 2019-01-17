@@ -127,3 +127,55 @@ background-color: rgba(243, 94, 94, 0.432);
     background: #242424;
     transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 800px) {
+    .projects-container {
+        padding-top: 10%;
+        padding-bottom: 50%;
+        height: 170vh;
+    }
+
+    .projects-content img {
+        height: 40vh;
+    }
+
+    .projects-content {
+        padding-top: 10%;
+    }
+
+    .back, .front {
+        height: 40vh;
+    }
+    
+    .card {
+        height: 50vh;
+    }
+
+    .proj-back-content {
+        margin-top: 15%;
+    }
+
+    .proj-retrieve {
+        grid-column: 1/1;    
+        grid-row: 1/4;
+        height: 14vh;
+    }
+    
+    .proj-youtube {
+        grid-column: 1/1;
+        grid-row: 2/4;
+        height: 8vh;
+    }
+    
+    .proj-weather {
+        grid-column: 1/1;
+        grid-row: 3/4;
+        height: 5vh;
+    }
+    
+    .proj-bookstore {
+        grid-column: 1/1;
+        grid-row: 4/4;
+        height: 0vh;
+    }
+}

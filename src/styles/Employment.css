@@ -3,7 +3,7 @@
     padding-right: 7%;
     padding-top: 4%;
     padding-bottom: 5%;
-    background: #252525;
+    background: #ffffff;
 }
 
 .emp-title h1 {
@@ -92,4 +92,10 @@
     height: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .emp-container {
+        padding-top: 10%;
+    }
 }
