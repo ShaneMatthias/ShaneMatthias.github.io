@@ -17,9 +17,9 @@ export const About = () => {
           </div>
 
             <div className='about-desc'>
-              <h1>To the person on my website, Hello! My name is Shane, and here is a summarized paragraph about me. </h1>
-              <h1>I have a passion for web development. What keeps me going is the part where I get to develop and design unique features for various applications! For the most part, creating things with code is fun.</h1>
-              <h1>I also do full-stack development. Creating a back-end, connecting it to the front-end and database is also part of what I do and what I love doing.</h1>
+              <h1>I am Shane, and here is a summarized paragraph about me. </h1>
+              <h1>I have a passion for web development. What keeps me going is being able to create and maintain new features, as well as planning out and designing the perfect flow of code. I take joy in being the prime of a specific feature of an app. It's like being important and impactful for a part of the company.</h1>
+              <h1>Apart from taking joy for being impactful, I also take joy in constantly learning and improving myself. It just feels good! </h1>
             </div>
 
         </div>

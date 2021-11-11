@@ -14,6 +14,18 @@ export default class EmploymentTimeline extends Component {
                 </div>
                 
                 <VerticalTimeline>
+                <VerticalTimelineElement className='vertical-timelime-element--work'>
+                        <h3 className="vertical-timeline-element-title">Cloud App Developer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">MITEL</h4>
+                        <h4 className="vertical-timeline-element-subtitle">June 2019 - Present</h4>
+                        <img className='mitel-img' src={require('../images/mitel.png')} />
+                        <p>
+                        Currently employed as a full-time developer at Mitel. I was in the mobile team in the early stages. I implemented calling features and refactored the navigation library.
+                        I moved to the web team after and started working with Angular. I Refactored the web app based on a newly designed UI, implemented new calling feautres, 
+                        as well as implemented E2E automation tests. More details on my accomplishments and tasks can be found on my Resume.
+                        </p>
+
+                    </VerticalTimelineElement>
                     <VerticalTimelineElement className='vertical-timelime-element--work'>
 
                         <h3 className="vertical-timeline-element-title">Software Developer (RA)</h3>
@@ -21,7 +33,7 @@ export default class EmploymentTimeline extends Component {
                         <h4 className="vertical-timeline-element-subtitle">July 2018 - December 2018</h4>
                         <img className='cims-img' src={require('../images/cims.png')} />
                         <p>
-                        Currently employed as a part time developer at CIMS. My team and I made the decision on using React and Redux to develop a web application called Asset Information Model (AIM).
+                        Previously employed as a part time developer at CIMS. My team and I made the decision on using React and Redux to develop a web application called Asset Information Model (AIM).
                         This decision was made based on the fact that this application was planned out to be a single page application with multiple complexed features. The reason Redux was taken into 
                         consideration was because we wanted to decrease unnecessary data transfer between components by centralizing state management. The back-end is being created with a NodeJs
                         server and a PSQL Database.

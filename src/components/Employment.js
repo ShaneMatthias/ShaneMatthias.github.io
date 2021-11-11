@@ -13,26 +13,38 @@ export const Employment = () => {
         <div className='emp-content'>
 
           <div className='emp-cims'>
+            <div className='cims-img-container'>
+              <img alt='CIMS' className='cims' src={require('../images/mitel.png')} />
+            </div>
 
+            <div className='emp-desc'>
+              <h1>
+                Currently employed as a full-time developer at Mitel. I was in the mobile team in the early stages. I implemented calling features and refactored the navigation library.
+                I moved to the web team after and started working with Angular. I Refactored the web app based on a newly designed UI, implemented new calling feautres, 
+                as well as implemented E2E automation tests. More details on my accomplishments and tasks can be found in my Resume.
+              </h1>
+            </div>
+          </div>
+          <hr></hr>
+
+          <div className='emp-cims'>
             <div className='cims-img-container'>
               <img alt='CIMS' className='cims' src={require('../images/cims.png')} />
             </div>
 
             <div className='emp-desc'>
               <h1>
-                Currently employed as a part time developer at CIMS. My team and I made the decision on using React and Redux to develop a web application called Asset Information Model (AIM).
+                Previously employed as a part time developer at CIMS. My team and I made the decision on using React and Redux to develop a web application called Asset Information Model (AIM).
                 This decision was made based on the fact that this application was planned out to be a single page application with multiple complexed features. The reason Redux was taken into 
                 consideration was because we wanted to decrease unnecessary data transfer between components by centralizing state management. The back-end is being created with a NodeJs
                 server and a PSQL Database.
               </h1>
               <a href='http://cims.carleton.ca/#/blogs/MappingEasternOntario'> Here is what's being developed.</a>
             </div>
-
           </div>
           <hr></hr>
 
           <div className='emp-bns'>
-
             <div className='bns-img-container'>
               <img alt='BNS' className='bns' src={require('../images/bns.png')} />
             </div>
@@ -44,7 +56,6 @@ export const Employment = () => {
                 discussions about design patterns for the website.
               </h1>
             </div>
-
           </div>
           <hr></hr>
 
@@ -60,7 +71,6 @@ export const Employment = () => {
                 with inserting data into a SQL database using SQL queries. 
               </h1>
             </div>
-
           </div>
         </div>
     </div>
